@@ -17,13 +17,14 @@
 ### 第一步
 	cd <目标文件夹>
 	git clone --depth 1 <Repo URI>
+	cd <项目目录>
 	git fetch --unshallow
 	or
 	git fetch --depth=2147483647
 
 这个时候你会发现项目被克隆下来了，但是分支很少。
 ### 第二步
-	cd <项目目录>/.git
+	cd .git
 	vi config
 修改 config 文件
 
