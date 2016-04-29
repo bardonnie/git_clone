@@ -9,7 +9,7 @@
 	fatal: early EOF
 	fatal: index-pack failed
 
-**引起这种错误的原因可能是因为 git server 内存小无法承载大文件的 clone。**
+**引起这种错误的原因可能是因为 git server 内存小无法承载大文件的 clone。或者是 clone 超时**
 
 >经过各种 google baidu 找到以下解决办法：
 
@@ -53,6 +53,12 @@ OK，成功获取到了项目的全部分支
 ![截图2](1.png)
 
 ![截图3](2.png)
+
+## 参考链接
+
+[stackoverflow](http://stackoverflow.com/questions/21277806/fatal-early-eof-fatal-index-pack-failed/29355320)
+
+[gitlab](https://gitlab.com/gitlab-org/gitlab-ce/issues/232)
 	
 
 	
